@@ -72,7 +72,7 @@ function randomNotification() {
 
 if ('serviceWorker' in navigator) {
   console.log("jv register sw (NO)");
-  navigator.serviceWorker.register('/jv-sw.js')
+  navigator.serviceWorker.register('jv-sw.js')
     .then(reg => console.log('SW registered!', reg))
     .catch(err => console.log('Boo!', err));
 };
@@ -97,16 +97,16 @@ function getData() {
   });
 
   document.querySelector("#btn-getdata-test").addEventListener("click", () => {
-    fetch("/api/test").then(res => {
+    fetch("api/test").then(res => {
       res.json().then(j => {
-        console.log("/api/test", j);
+        console.log("api/test", j);
       })
     });
   });
 
   setTimeout(() => {
     const img = new Image();
-    img.src = '/res/dog.png';
+    img.src = 'res/dog.png';
     document.getElementById("div-img").appendChild(img);
   }, 3000);
 
