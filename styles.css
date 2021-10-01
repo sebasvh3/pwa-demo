@@ -1,0 +1,23 @@
+header {
+  font-size: 14px;
+  background-color: beige;
+}
+
+footer {
+  font-size: 12px;
+  background-color: rgb(177, 219, 202);
+}
+
+.container {
+  background-color: aliceblue;
+}
+
+.img-slug {
+  width: 100px;
+  height: 100px;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+}
