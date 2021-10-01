@@ -29,7 +29,7 @@ const appShellFiles = [
 //const contentToCache = appShellFiles.concat(gamesImages);
 
 
-const contentToCache = ['/app.js','/index.html'];
+const contentToCache = ['app.js','index.html'];
 
 
 self.addEventListener('install', (e) => {
