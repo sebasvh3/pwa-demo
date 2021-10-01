@@ -1,7 +1,7 @@
 {
-  "name": "js13kGames Progressive Web App",
-  "short_name": "js13kPWA",
-  "description": "Progressive Web App that lists games submitted to the A-Frame category in the js13kGames 2017 competition.",
+  "name": "Mi Demo de Progressive Web App",
+  "short_name": "midemito pwa",
+  "description": "Progressive Web App mi demito",
   "icons": [
     {
       "src": "icon/icons1616.png",
@@ -34,8 +34,8 @@
       "type": "image/png"
     }
   ],
-  "start_url": "/index.html",
+  "start_url": "index.html",
   "display": "standalone",
-  "theme_color": "#B12A34",
-  "background_color": "#f12a54"
+  "theme_color": "#beee89",
+  "background_color": "#63a0d6"
 }
